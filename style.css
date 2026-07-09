@@ -1,0 +1,45 @@
+{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+nav{
+    padding:20px;
+    background-color: black;
+    color: white;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    align-items: center;
+}
+nav a:hover{
+    color: red;
+}
+nav li:last-child a{
+    background-color: red;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 5px;
+
+}
+nav li:last-child a:hover{
+    color:aliceblue;
+    background: red;
+}
+nav a.active{
+    color:red;
+    font-weight:bold;
+    border-bottom: 2px solid red;
+}
