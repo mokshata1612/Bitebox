@@ -3,10 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3266b085b.js" crossorigin="anonymous"></script>
     <title>Cart</title>
 </head>
 <body>
-    <h1>Cart</h1>
+    <header>
+        <nav>
+            <div>
+                <!-- logo -->
+            <!--<h2>Bite<span style="color: #de0c10;">Box</span></h2>-->
+            <img src="Bite-Box logo.png" alt="logo" width="180px">
+            <!-- menu -->
+             <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="bite-deal.html">Bite Deal</a></li>
+                <li><a href="cart.html">Cart<i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                <li><a href="login.html">Login<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+             </ul>
+            </div>
+
+        </nav>
+    </header>
+    <section class="cart"><br></br>
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="/images/Burger.jpg">
+                        <div>
+                            <h4>Burger</h4>
+                            <p>Cheezy veg loaded burger</p>
+                        </div>
+                    </td>
+                    <td>
+                        <td>Rs.220</td>
+                    </td>
+                    <td>
+                    <div>
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                    </div>
+                    </td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="/images/pasta.jpg">
+                        <div>
+                            <h4>Spaghetti pasta</h4>
+                            <p>Creemy whitye sause pasta</p>
+                        </div>
+                    </td>
+                    <td>
+                        <td>Rs.280</td>
+                    </td>
+                    <td>
+                    <div>
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                    </div>
+                    </td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="/images/gaelic bread.jpg">
+                        <div>
+                            <h4>Garlic Bread</h4>
+                            <p>Chees garlic bread</p>
+                        </div>
+                    </td>
+                    <td>
+                        <td>Rs.210</td>
+                    </td>
+                    <td>
+                    <div>
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                    </div>
+                    </td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="/images/diet coke.jpg">
+                        <div>
+                            <h4>Coke</h4>
+                            <p>diet coke</p>
+                        </div>
+                    </td>
+                    <td>
+                        <td>Rs.120</td>
+                    </td>
+                    <td>
+                    <div>
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                    </div>
+                    </td>
+                    <td>
+                        <button class="remove">X</button>
+                    </td>
+                </tr>
+                <tr class="grand-total">
+                <td colspan=3>Grand total</td>
+                <td>Rs.220</td>
+                <td><button>Proceed</button></td>
+                </tr>
+        </tbody>
+        </table>
+
+    </section>
     
 </body>
 </html>
