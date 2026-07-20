@@ -257,6 +257,56 @@ tbody tr{
 .qty.box button:hover{
     background:rgba(67, 0, 0, 0.203);
 }
-.qty.box span{
-    font-size: ;
+.qty-box span{
+    min-width: 20px;
+    text-align: center;
+}
+/*auth css*/
+.auth-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#000,#1c1c1c);
+}
+.auth-box{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+.auth-box h2{
+    margin-bottom: 20px;
+    color: black;
+}
+.auth-box input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(192, 192, 192);
+    outline: none;
+    border-radius: 10px;
+}
+.auth-box input:focus{
+    border-color: red;
+}
+.auth-box button{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.auth-box button:hover{
+    background-color: rgb(158, 2, 2);
+}
+.auth-box a{ /*for link (forget pass) and for not bydefault underline on link*/
+    color: red;
+    text-decoration: none;
 }
