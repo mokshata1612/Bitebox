@@ -310,3 +310,105 @@ tbody tr{
     color: red;
     text-decoration: none;
 }
+
+/*Bitedeal page*/
+.deals-page{
+    padding: 40px;
+    background: #f4f3f3;
+}
+.deal-hero{
+    background: linear-gradient(135deg, rgb(0,0,0)#202020);
+    color: rgb(240, 238, 238);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.deal-hero h1{
+    font-size: 40px;
+}
+.deal-hero p{
+    font-size: 18px;
+}
+.section-title{
+    margin: 30px 0 20px;
+    font-size: 28px;
+    color: black;
+}
+
+.combo-section{
+    padding: 40px;
+    background-color: white;
+}
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+.combo-card{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+.combo-card img{
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 200px;
+}
+.combo-card h4{
+    margin: 10px 0;
+}
+.combo-card h4 span{
+    text-decoration: line-through;
+    color: rgb(64, 64, 64);
+    margin-right: 10px;
+}
+.combo-card button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.combo-card button:hover{
+    background-color: rgb(126, 1, 1);
+}
+.combo-card:hover{
+    transform: translateY(-8px);
+}
+.deals-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.deal-card{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.deal-card h3{
+    margin-bottom: 10px;
+}
+.deal-card span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.deal-card:hover{
+    transform: translateY(-8px);
+    background: rgb(143, 198, 143);
+}
+.red{ border-top:5px solid red;}
+.orange{border-top:5px solid orange;}
+.yellow{border-top:5px solid  yellow;}
